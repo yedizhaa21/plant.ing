@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333333;
+}
+
+.container{
+    background: linear-gradient(270deg, rgb(158, 202, 110) , #D5EEBB);
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 5px;
+    width: 98vw;
+    height: 95vh;
+}
+
+.col-left,
+.col-right{
+    height: auto;
+    width: 40%;
+}
+
+.col-left{
+    margin-top: 10%;
+}
+
+.col-right{
+    margin-top: 8%;
+}
+
+.logo img{
+    width: 420px;
+    height: 200px;
+}
+
+button{
+    display: absolute;
+    background-color: #444941;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 28px;
+    padding: 5px 25px;
+    margin: 0%;
+    transition: .2s ease-in;
+}
+
+button:hover{
+    background-color: #84FF70;
+    color: #444941;
+    box-shadow: 5px 5px 4px rgb(32, 32, 32);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: #3bcf24;
+}
+
+
+.main-image{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 5;
+}
+
+.bg-abstrak{
+    width: 540px;
+    height: 560px;
+    display: block;
+    background: #84FF70;
+    top: 10.5%;
+    right: 28px;
+    transform: rotate(28deg);
+    box-shadow: 5px 5px 10px rgb(90, 87, 87);
+    z-index: 4;
+}
+
+
+/* page2 */
+
+.title h1{
+    margin: 15px;
+    font-size: 57px;
+    font-weight: 600px;
+}
+
+.title h1{
+    line-height: 65px;
+}
+
+.narration p{
+    line-height: 28px;
+}
+
+.narration p{
+    font-size: 20px;
+    margin: 35px 15px;
+}
+
+/* page 3 */
+   
+.narration ul,
+.narration ul li{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.narration ul{
+    margin-bottom: 35px;
+}
